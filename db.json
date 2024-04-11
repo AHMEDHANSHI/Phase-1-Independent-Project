@@ -1,0 +1,103 @@
+{
+"doctors":[
+    {
+    "id":"1",
+    "name": "Dr. NYONGESA CHRISTINE KHANILI",
+    "specialty": "Cardiology",
+    "age": 35 ,
+    "image":"https://images.pexels.com/photos/3714743/pexels-photo-3714743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+    "medicallicensenumber": "bgre452336",
+    "email": "NYONGESA CHRISTINE KHANILI@gmail.com",
+    "Billing":"NHIF,Mpesa,insuarance",
+    "county":"Nairobi",
+    "hospital":" Aga Khan University Hospital,"
+},
+{
+    "id":"2",
+    "name": "Dr. MACHATHA AYSHA NJOKI",
+    "specialty": "rheumatology ",
+    "age": 40 ,
+    "image":"https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+    "medicallicensenumber":"gjdhgd6439509kj" ,
+    "email": "MACHATHA AYSHA NJOKI@gmail.com",
+    "Billing":"NHIF,Mpesa,insuarance,cash", 
+    "county":"Nairobi",
+    "hospital":"kenyatta National"
+},
+{
+    "id":"3",
+    "name": "Dr. EBEI ELIUD ETOOT",
+    "specialty": "general practise",
+    "age": 51 ,
+    "image":"https://images.pexels.com/photos/4989148/pexels-photo-4989148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+    "medicallicensenumber":"h543gfdrkln" ,
+    "email":"EBEI ELIUD ETOOT@gmail.com",
+    "Billing":"NHIF,Mpesa,insuarance", 
+    "county":"kikuyu",
+    "hospital":"lion's Hospital"
+},
+{
+    "id":"4",
+    "name": "Dr. OMAR MOHAMED ABDULHAKIM",
+    "specialty": "Orthopedic surgeon",
+    "age": 47 ,
+    "image":"https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+    "medicallicensenumber": "v836359ghjs"  ,
+    "email": "OMAR MOHAMED ABDULHAKIM@gmail.com",
+    "Billing":"NHIF,Mpesa,insuarance,cash",
+    "county":"Bungoma",
+    "hospital":"Tenwek Hospital"
+},
+{
+    "id":"5",
+    "name": "Dr. SACHDEVA SAURAV",
+    "specialty": "Nephrology",
+    "age": 52 ,
+    "image":"https://images.pexels.com/photos/5452268/pexels-photo-5452268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+    "medicallicensenumber":"hjsffd687428", 
+    "email": "SACHDEVA SAURAV@gmail.com",
+    "Billing":"NHIF,Mpesa,insuarance", 
+    "county":"Eldoret",
+    "hospital":"Life Care Hospitals"
+},
+{"id":"6",
+    "name": "SAMSON CHELGUT",
+    "specialty": " gynaceology",
+    "age": 60 ,
+    "image":"data:image/jpeg;base64,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", 
+    "medicallicensenumber": "750&dpr=2"  ,
+    "email": "SAMSON CHELGUT@gmail.com",
+    "Billing":"NHIF,Mpesa,insuarance,cash",
+    "county":"MOMBASA",
+    "hospital":"Premier hospital"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+}

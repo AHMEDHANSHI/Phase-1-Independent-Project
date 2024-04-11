@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(170, 238, 156);
+    color: black;
+    margin: 0;
+
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown button{
+    border: none;
+    text-decoration: none;
+    background-color:gray;
+    padding: 5px 5px;
+}
+.dropdown a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+}
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background-color: #333;
+
+    min-width: 160px;
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+}
+
+
+
+.header {
+    margin-top: 10px;
+    padding: 50px 40px;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(11, 7, 129);
+    background-color: rgb(86, 81, 81);
+
+}
+
+.container-fluid {
+    background-color: gray;
+    border: solid 1px blue;
+    padding: 5px 6px;
+    height: 70px;
+}
+
+
+.content {
+    padding: 10px;
+    ;
+    background-color: bisque;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    border-style: outset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(11, 7, 129);
+    margin-top: 30px;
+    background-color: brown;
+}
+
+#spel {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.1rem;
+    font-size: 1.2rem;
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    text-transform: capitalize;
+
+
+
+}
+
+image {
+    border: solid 1px blanchedalmond;
+    width: 30%;
+}
+
+#doctorr li {
+    list-style-type: none;
+
+    padding: 5px;
+    overflow: hidden;
+    border: solid 1px gray;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+}
+
+footer a {
+    color: #d91c1c;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #d56a6a;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(208, 28, 28, 0.1);
+    border: none;
+    resize: none;
+    color: #219797;
+    padding: 0.7em 1em;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    color: aliceblue;
+
+}
+
+#exampleInputEmail1 {
+    background-color: rgb(170, 238, 156);
+    color: black;
+    display: block;
+}
