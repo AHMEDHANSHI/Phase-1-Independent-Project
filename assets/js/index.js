@@ -4,20 +4,46 @@ const myGetRequest = new Request('http://localhost:3000/doctors');
 
 // function that will used as the callback function in the eventlistener or the the onclickevent listener function
 function booked(event) {
-  event.target.style.background="tomato";
-   event.target.style.color="white";
-  event.target.textContent="BOOKED";
-  
+  if (event.target.textContent === 'Book appointment') {
+    event.target.style.background = 'tomato';
+    event.target.style.color = 'white';
+    event.target.textContent = 'BOOKED';
+
+    // Book the appointment
+    // ...
+  } else {
+    event.target.style.background = 'white';
+    event.target.style.color = 'black';
+    event.target.textContent = 'Book appointment';
   }
+}
 
   function cancel(event) {
-    event.target.style.background="purple";
-    event.target.style.color="black";
-    event.target.style.texttype="italic";
-    event.target.textContent="CANCELLED";
-    
+    if (event.target.textContent === 'cancel appointment') {
+      event.target.style.background = 'black';
+      event.target.style.color = 'white';
+      event.target.textContent = 'BOOKED';
+  
 
+  }else {
+    event.target.style.background = 'purple';
+    event.target.style.color = 'black';
+    event.target.textContent = 'Cancelled';
   }
+}
+
+const send=document.querySelector('.sendbtn')
+send.addEventListener('click',submit)
+
+
+
+ function submit(event) {
+  event.target.style.backgroundColor = 'purple';
+  event.target.style.color = 'white';
+  event.target.textContent = 'Sending...';
+  event.preventDefault();
+
+ }
   
   
   
