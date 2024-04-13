@@ -5,7 +5,7 @@
 3.nephrology
 4.Orthopedic surgeon
 5.general practise
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](t https://ahmedhanshi.github.io/Phase-1-Independent-Project/) <!--  the project is hosted on github, the link is here. -->
 24/03/2024
 
 ## Table of Contents
@@ -39,7 +39,6 @@ The aim is  to leverage technology to enhance physical health , mental health an
 In today's fast-paced world, people are  looking for ways to get help that concerns  them. However, there are often challenges with finding reliable health platforms that provide easy access to consultations and streamline the booking process for both patient and patients. Many existing platforms are either too complex or lack essential features, such as a simple user interface, secure payment processing, and real-time  availability updates.
 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
