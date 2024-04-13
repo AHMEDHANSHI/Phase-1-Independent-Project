@@ -10,7 +10,7 @@ function booked(event) {
     event.target.style.color = 'white';
     event.target.textContent = 'BOOKED';
 
-    // Book the appointment
+    // Book the appointment function
     // ...
   } else {
     event.target.style.background = 'white';
@@ -19,14 +19,14 @@ function booked(event) {
   }
 }
 
-  function cancel(event) {
-    if (event.target.textContent === 'cancel appointment') {
-      event.target.style.background = 'black';
-      event.target.style.color = 'white';
-      event.target.textContent = 'BOOKED';
-  
+function cancel(event) {
+  if (event.target.textContent === 'cancel appointment') {
+    event.target.style.background = 'black';
+    event.target.style.color = 'white';
+    event.target.textContent = 'BOOKED';
+ //cancel function is used as a callback function
 
-  }else {
+  } else {
     event.target.style.background = 'purple';
     event.target.style.color = 'black';
     alert("YOUR APPOINTMENT HAS BEEN CANCELLED")
@@ -34,29 +34,29 @@ function booked(event) {
   }
 }
 
-const send=document.querySelector('.sendbtn')
-send.addEventListener('click',submit)
+const send = document.querySelector('.sendbtn')
+send.addEventListener('click', submit)
 
 //eventlistener for submit event 
 
 
 
- function submit(event) {
+function submit(event) {
   event.target.style.backgroundColor = 'purple';
   event.target.style.color = 'white';
   event.target.textContent = 'Sending...';
   event.preventDefault();
 
- }
-  
-  
-  
+}
+
+
+
 
 
 function oneDoctor(doctor) {
-const div = document.createElement('li');
+  const div = document.createElement('li');
 
-div.innerHTML =  `
+  div.innerHTML = `
 
 <div >
 <img src="${doctor.image}" alt="Doctor Image" height=600px width=480>
@@ -69,12 +69,12 @@ div.innerHTML =  `
   <p>Hospital: ${doctor.hospital}</p> <div> 
   <button id="Book"onclick="booked(event)">Bookappointment</button> <button id='Cancel'onclick="cancel(event)"> Cancel Appointment</button> </div>
   <br> `;
-console.log(div);
-// i used the onlick evenlistener (onclick)
-// the newly created li element will be added to the ul element with id "#doctorr" as the child element
-document.getElementById('doctorr').appendChild(div);
-const BOOK=document.querySelector('#Book');
-const CANCEL=document.querySelector('#Cancel');
+  console.log(div);
+  // i used the onlick evenlistener (onclick)
+  // the newly created li element will be added to the ul element with id "#doctorr" as the child element
+  document.getElementById('doctorr').appendChild(div);
+  const BOOK = document.querySelector('#Book');
+  const CANCEL = document.querySelector('#Cancel');
 
 
 
@@ -84,13 +84,13 @@ const CANCEL=document.querySelector('#Cancel');
 }
 
 function allDoctors() {
-fetch(myGetRequest)
-.then(response => response.json())
-.then(docdata => docdata.forEach(doctor => oneDoctor(doctor)))
-.catch(error => console.error(error));
+  fetch(myGetRequest)
+    .then(response => response.json())
+    .then(docdata => docdata.forEach(doctor => oneDoctor(doctor)))
+    .catch(error => console.error(error));
 }
 function initialize() {
-allDoctors();
+  allDoctors();
 }
 initialize();
 
