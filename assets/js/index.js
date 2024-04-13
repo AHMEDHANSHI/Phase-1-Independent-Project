@@ -37,6 +37,8 @@ function booked(event) {
 const send=document.querySelector('.sendbtn')
 send.addEventListener('click',submit)
 
+//eventlistener for submit event 
+
 
 
  function submit(event) {
