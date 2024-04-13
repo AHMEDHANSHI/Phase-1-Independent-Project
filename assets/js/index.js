@@ -6,6 +6,7 @@ const myGetRequest = new Request('http://localhost:3000/doctors');
 function booked(event) {
   if (event.target.textContent === 'Book appointment') {
     event.target.style.background = 'tomato';
+    alert("PLEASE CONFIRM BOOKING IN YOUR EMAIL")
     event.target.style.color = 'white';
     event.target.textContent = 'BOOKED';
 
@@ -28,6 +29,7 @@ function booked(event) {
   }else {
     event.target.style.background = 'purple';
     event.target.style.color = 'black';
+    alert("YOUR APPOINTMENT HAS BEEN CANCELLED")
     event.target.textContent = 'Cancelled';
   }
 }
