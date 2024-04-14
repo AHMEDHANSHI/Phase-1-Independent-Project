@@ -27,7 +27,7 @@ function cancel(event) {
  //cancel function is used as a callback function
 
   } else {
-    event.target.style.background = 'purple';
+    BOOK.style.background = 'purple';
     event.target.style.color = 'black';
     alert("YOUR APPOINTMENT HAS BEEN CANCELLED")
     event.target.textContent = 'Cancelled';
@@ -42,13 +42,14 @@ send.addEventListener('click', submit)
 
 
 function submit(event) {
-  event.target.style.backgroundColor = 'purple';
-  event.target.style.color = 'white';
-  event.target.textContent = 'Sending...';
+  send.style.backgroundColor = 'purple';
+ send.style.color = 'white';
+  send.textContent = 'Sending...';
   alert("THANK YOU FOR YOUR FEEDBACK")
-  event.preventDefault();
+  
 
 }
+
 
 
 
@@ -64,7 +65,7 @@ function oneDoctor(doctor) {
 <h4 id="card-title">${doctor.name}</h4> 
  <p id=speciality>Speciality: ${doctor.specialty}</p>
   <p>Age: ${doctor.age}</p> <p>license number:${doctor.medicallicensenumber}</p><br/> 
-  <p>Billing: ${doctor.Billing}</p>
+  <p>Billing: ${doctor.Billing}</p> <span> 
   <p>contact: ${doctor.email}</p>
    <p>Location: ${doctor.county}</p> 
   <p>Hospital: ${doctor.hospital}</p> <div> 
