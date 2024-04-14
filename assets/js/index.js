@@ -24,7 +24,7 @@ function cancel(event) {
     event.target.style.background = 'black';
     event.target.style.color = 'white';
     event.target.textContent = 'BOOKED';
- //cancel function is used as a callback function
+    //cancel function is used as a callback function
 
   } else {
     BOOK.style.background = 'purple';
@@ -43,10 +43,10 @@ send.addEventListener('click', submit)
 
 function submit(event) {
   send.style.backgroundColor = 'purple';
- send.style.color = 'white';
+  send.style.color = 'white';
   send.textContent = 'Sending...';
   alert("THANK YOU FOR YOUR FEEDBACK")
-  
+
 
 }
 
@@ -56,6 +56,7 @@ function submit(event) {
 
 
 function oneDoctor(doctor) {
+  // used to create a new list that can be used in the html file
   const div = document.createElement('li');
 
   div.innerHTML = `
@@ -87,6 +88,7 @@ function oneDoctor(doctor) {
 
 function allDoctors() {
   fetch(myGetRequest)
+  // used to fetch data from the server (db.json)
     .then(response => response.json())
     .then(docdata => docdata.forEach(doctor => oneDoctor(doctor)))
     .catch(error => console.error(error));
