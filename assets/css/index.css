@@ -124,6 +124,7 @@ image {
     list-style-type: none;
 
     margin-right: 75px;
+    padding: 5px;
     
     overflow: hidden;
     border: solid 1px gray;
