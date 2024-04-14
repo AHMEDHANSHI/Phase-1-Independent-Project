@@ -12,8 +12,9 @@ body {
     margin: 0;
     background-image:url("/assets/images/stethoscope.jpg");
     background-repeat: no-repeat;
-    background-size: 550px ;
+    background-size :cover;
     background-position: fixed;
+    background-attachment: fixed;
     
 
 }
