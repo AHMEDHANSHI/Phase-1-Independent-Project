@@ -27,12 +27,12 @@ function cancel(event) {
     //cancel function is used as a callback function
 
   } else {
-    BOOK.style.background = 'purple';
+    event.target.style.background = 'purple';
     event.target.style.color = 'black';
     alert("YOUR APPOINTMENT HAS BEEN CANCELLED")
     event.target.textContent = 'Cancelled';
   }
-}
+};
 
 
 
