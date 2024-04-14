@@ -45,6 +45,7 @@ function submit(event) {
   event.target.style.backgroundColor = 'purple';
   event.target.style.color = 'white';
   event.target.textContent = 'Sending...';
+  alert("THANK YOU FOR YOUR FEEDBACK")
   event.preventDefault();
 
 }
