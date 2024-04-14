@@ -34,8 +34,12 @@ function cancel(event) {
   }
 }
 
+
+
 const send = document.querySelector('.sendbtn')
 send.addEventListener('click', submit)
+send.addEventListener('mouseover', submit)
+
 
 //eventlistener for submit event 
 
